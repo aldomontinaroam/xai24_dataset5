@@ -2,6 +2,11 @@
 https://medium.com/@dtuk81/confusion-matrix-visualization-fc31e3f30fea
 https://github.com/DTrimarchi10/confusion_matrix/blob/master/cf_matrix.py
 '''
+
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def make_confusion_matrix(cf,
                           group_names=None,
                           categories='auto',
